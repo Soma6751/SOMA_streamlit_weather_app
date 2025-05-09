@@ -45,7 +45,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Kép konvertálása base64-re
-image_path = "logo.PNG" 
+image_path = "logo.png" 
 img_base64 = get_base64_of_image(image_path)
 
 # HTML a cím + jobb oldali kép kombinációjához
